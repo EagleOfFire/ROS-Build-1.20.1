@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "riseofshinobibuilds:block/soul_fire_layer_0"
+  }
+}

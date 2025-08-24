@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "riseofshinobibuilds:block/sweet_berry_bush_stage2"
+  }
+}

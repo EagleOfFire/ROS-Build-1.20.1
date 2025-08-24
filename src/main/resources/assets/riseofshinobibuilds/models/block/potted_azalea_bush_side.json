@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "riseofshinobibuilds:block/potted_azalea_bush_side"
+  }
+}

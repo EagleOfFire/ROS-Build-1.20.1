@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "riseofshinobibuilds:block/damaged_anvil_top"
+  }
+}

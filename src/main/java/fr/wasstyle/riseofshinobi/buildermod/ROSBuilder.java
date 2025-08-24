@@ -2,6 +2,8 @@ package fr.wasstyle.riseofshinobi.buildermod;
 
 import com.mojang.logging.LogUtils;
 import fr.wasstyle.riseofshinobi.buildermod.block.ModBlocks;
+import fr.wasstyle.riseofshinobi.buildermod.item.ModCreativeModTabs;
+import fr.wasstyle.riseofshinobi.buildermod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -29,6 +31,8 @@ public class ROSBuilder
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
